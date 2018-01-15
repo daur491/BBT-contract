@@ -1,0 +1,23 @@
+{
+  "name": "bakharevaico",
+  "version": "1.0.0",
+  "description": "",
+  "main": "contracts-params.js",
+  "dependencies": {
+    "bignumber.js": "^5.0.0",
+    "moment": "^2.19.4",
+    "moment-timezone": "^0.5.14",
+    "solc": "^0.4.19",
+    "web3": "^1.0.0-beta.26"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "truffle": "truffle migrate --network kovan",
+    "truffleClear": "rm -r build && truffle migrate --network kovan",
+    "trR": "truffle migrate --network rinkeby",
+    "trRC": "rm -r build && truffle migrate --network rinkeby"
+  },
+  "author": "https://github.com/ByKraB",
+  "license": "ISC"
+}
