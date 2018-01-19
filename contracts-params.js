@@ -6,7 +6,7 @@ const DATE_FORMAT = 'DD.MM.YYYY HH:mm:ss';
 moment.tz.setDefault("America/New_York");
 
 const tokenDecimals = 18;
-const crowdsaleStartDate = '15.01.2018 00:00:00';
+const crowdsaleStartDate = '01.03.2018 00:00:00';
 module.exports = {
     token: {
         name: "Best Buy Token",
